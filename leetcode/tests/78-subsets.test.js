@@ -1,6 +1,6 @@
-const subset = require("../problems/78-subsets-medium");
+const subset = require("../problems/78-subsets");
 
-describe("78-subset-medium", () => {
+describe("78-subset", () => {
   test("should return all possible subsets (the power set)", () => {
     expect(subset([0])).toEqual([[], [0]]);
     expect(subset([1, 2, 3])).toEqual([
